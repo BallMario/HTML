@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Página Indice</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+      box-sizing: border-box;
+    } 
+    body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: #c67a7a;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(65, 5, 5);
+}
+nav {
+  float: center;
+  width: 100%;
+  height: 330px; 
+  background: #caa8a8;
+  padding: 20px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 330px; 
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+} 
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+} 
+
+aside {
+  float: right;
+  padding: 20px;
+  width:30%;
+  background-color: #caa8a8;
+  height: 330px;
+}
+</style>
+</head>
+<body>
+<header>
+    <h1>Historia de la Fuerza Aérea Mexicana</h1>
+    <center>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Roundel_of_Mexico.svg/1179px-Roundel_of_Mexico.svg.png" width="" height="150">
+    </center>
+</header>
+
+<section>
+    <nav>
+        <h2>Aviones historicos de la Fuerza Aérea Mexicana</h2>
+        <a href="https://ballmario.github.io/html.html">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/P47_Escuadron_201_mexico.jpg" alt="Aviones historicos de la FAM" style="width:;height:200px;">
+            </a>
+    </nav>
+</section>
+
+<hr>
+
+<section>
+    <nav>
+        <h2>Aviones modernos de la Fuerza Aérea Mexicana</h2>
+        <a href="https://ballmario.github.io/2ndpage.html">
+            <img src="https://cdn.jetphotos.com/full/6/87240_1537141497.jpg" alt="Aviones modernos de la FAM" style="width:;height:200px;">
+            </a>
+    </nav>
+</section>
+
+<hr>
+
+<section>
+    <nav>
+        <h2>Aviones antiguos de la Fuerza Aérea Mexicana</h2>
+        <a href="https://ballmario.github.io/3rdpage.html">
+            <img src="https://cdn.jetphotos.com/full/6/82335_1602528125.jpg" alt="Avionesantiguos de la FAM" style="width:;height:200px;">
+            </a>
+    </nav>
+</section>
+</body>
+</html>
